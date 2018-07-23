@@ -1,0 +1,94 @@
+/* main.css */
+body{
+  background-color: #ff4d4d;
+  color:white;
+}
+footer{
+  position:relative;
+  top:150px;
+}
+p{
+  text-align:center;
+  position:relative;
+  top:30px;
+}
+.button {
+    transition-duration: 1.5s;
+    border-radius:12px;
+    height:50px;
+    width:100px;
+    border-width: thin;
+    background-color:white;
+    border: 2px solid #006bb3;
+
+}
+
+.button:hover {
+    background-color: #3762a8; /* Green */
+    color: white;
+}
+.answer:hover{
+  background-color:red; /*change color */
+  color:white;
+}
+.quote
+{
+  display:inline-block;
+}
+.answer{
+  display:inline-block;
+  width:49%;
+  height:35%;
+  margin-top: 20px;
+  transition-duration: 1.5s;
+}
+
+#main{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgypjrjjDFNdbwdosL9Iem48hrUr-EU-YiUyok4uZ9F6yUIu5I-g");
+  text-align: center;
+  border: 2px solid red;
+  width:100%;
+  height:200px;
+  color:white;
+}
+
+#quote_container
+{
+  position:relative;
+  left:550px;
+  top:100px;
+
+#quote_box
+{
+  position:relative;
+  height:70px;
+  width:300px;
+}
+#quiz_box
+{
+  position:relative;
+  left:320px;
+  width:50%;
+  height:200px;
+
+  margin-top: 20px;
+}
+#question_box
+{
+  height:100px;
+}
+#answer_box
+{
+
+  height:100px;
+
+}
+#next_button
+{
+  position:relative;
+  float:right;
+}
+#motivational_quote
+{
+  font-size: 30px;
+}
